@@ -1,15 +1,35 @@
 /* work sans font imported */
+/* shared style */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;600;700;800;900&display=swap');
 
 *{
 font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 24px;
+    border: 0;
+    color: #fff;
+}
+
+/* header style */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
 }
 
 /* nav related style */
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 0 240px;
+    align-items: center;
+
+}
+.nav-title{
+    color:#131313;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 nav>ul{
     display: flex;
@@ -18,7 +38,27 @@ nav>ul{
 nav li{
     list-style: none;
     margin-right: 50px;
+    color:#424242;
+    font-size: 1rem;
+    font-weight: 500;
 }
 nav a{
     text-decoration: none;
+}
+/* banner style */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.banner-title{
+    color:#131313;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
 }
