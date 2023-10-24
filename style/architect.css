@@ -11,6 +11,9 @@ font-family: 'Work Sans', sans-serif;
     padding: 20px 24px;
     border: 0;
     color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 /* header style */
@@ -39,7 +42,6 @@ nav li{
     list-style: none;
     margin-right: 50px;
     color:#424242;
-    font-size: 1rem;
     font-weight: 500;
 }
 nav a{
@@ -61,4 +63,23 @@ nav a{
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
+}
+.banner img{
+    width: 100%;
+}
+
+
+/* responsive media queries */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 5px;
+    }
+}
+@media screen and (min-width:576px)  and (max-width:960px) {
+    header{
+        padding: 5px;
+    }
 }
