@@ -1,0 +1,24 @@
+/* work sans font imported */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;600;700;800;900&display=swap');
+
+*{
+font-family: 'Work Sans', sans-serif;
+}
+
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 240px;
+}
+nav>ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
